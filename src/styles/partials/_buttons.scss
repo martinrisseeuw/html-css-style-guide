@@ -1,0 +1,29 @@
+.btn,
+button {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 3px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  margin: 1em 0;
+  padding: 1em 2.796875em;
+  font-size: 81.25%;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+.big-btn {
+  font-size: 100%;
+}
+
+.small-btn {
+  font-size: 69.4375%;
+}

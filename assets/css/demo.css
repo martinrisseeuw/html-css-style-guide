@@ -1,0 +1,33 @@
+.container {
+  padding: 100px 0;
+}
+
+h1,
+.alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta,
+.intro,
+p{
+margin-bottom: 40px;
+max-width: 27.25em;
+}
+
+blockquote p {
+  margin-bottom: 0.2rem;
+}
+
+.col {
+  border: 1px solid #eee;
+  padding: 1em;
+}
+.row {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'MetaPro';
+  src: url(../fonts/MetaPro-Normal.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url(../fonts/MetaPro-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url(../fonts/MetaPro-Bold.woff) format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'MetaProSerifOT';
+  src: url(../fonts/MetaSerifOT-Bold.woff) format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'MetaPro', 'helvetica neue', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  @include breakpoint(s){
+    font-size: 87.5%;
+  };
+}
+
+.page-title {
+  font-size: 2.5em;
+}
+
+.title-margin {
+  margin-bottom: 0.5em;
+}
+
+h1.intro {
+  font-size: 3.5625em;
+  font-family: 'MetaProSerifOT';
+  color: #000;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.intro {
+  font-family: 'MetaProSerifOT';
+  font-size: 1.2em;
+  color: #222;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 0.833125em;
+  color: #222;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+h1,
+.alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta {
+  font-weight: 700;
+}
+
+h1,
+.alpha {
+  font-size: 2.9375em;
+}
+
+h2,
+.beta {
+  font-size: 2.4375em;
+}
+
+h3,
+.gamma {
+  font-size: 2.0625em;
+}
+
+h4,
+.delta {
+  font-size: 1.6875em;
+}
+
+h5,
+.epsilon {
+  font-size: 1.4375em;
+}
+
+h6,
+.zeta {
+  font-size: 1.2em;
+}
+
+p,
+blockquote {
+  hyphens: none;
+}
+
+blockquote {
+  font-size: 2.0625em;
+  font-family: 'MetaProSerifOT';
+  text-align: center;
+
+  p {
+    color: #000;
+  }
+
+  cite {
+    font-family: 'MetaPro';
+    font-size: 70%;
+    font-weight: 400;
+  }
+}
+
+dd,
+dt,
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #777777;
+}
+
+strong {
+  font-weight: 700;
+}

@@ -1,0 +1,89 @@
+* {
+  border: 0;
+  border-style: solid;
+  border-width: 0;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  -webkit-tap-highlight-color: none;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div,
+section,
+nav {
+  position: relative;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Make `a` like a button */
+[role="button"] {
+    color: inherit;
+    cursor: default;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    white-space: pre;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
